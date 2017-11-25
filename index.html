@@ -4,26 +4,46 @@
    <meta charset="utf-8">
    <meta name="description"content="tu wpisz krótki opis strony">
    <meta name="keywords"content="Tu wpisz słowa kluczowe!">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <title>to jest izi</title>
     <style> 
-    div {
+    .igor {
       transform: rotate(180deg);
       text-align: center;
       margin-top: 300px;
       margin-bottom: 300px;
       font-size: 50px;
-      color: #34495e;
+      transition: transform 2s;
     }
-    div:hover {
-      transform: rotate(180deg);
-      color: #ecf0f1;
+    .igor a {
+      color: #34495e;
       transition: color 1s;
-    }    
+    }
+    .igor a:hover {
+      color: #ecf0f1;
+    }
+    .igor.o {
+      transform: rotate(0deg);  
+    }
     </style>
   </head>
 <body bgcolor="#e67e22">
 
-<div><a href="start.html">Igor Oczkowicz<br/>Moja Strona</a></div>
+<div class="odwr">
+  <a id="odwr" href="#">odwróć</a>
+</div>
+  
+<div class="igor">
+  <a href="start.html">Igor Oczkowicz<br/>Moja Strona</a>
+</div>
+
+<script>
+var $el = $('.igor');
+$('#odwr').click(function () {
+  $el.toggleClass('o');
+});
+      
+</script>
 
 </body>
 </html>
