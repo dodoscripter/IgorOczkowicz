@@ -4,7 +4,7 @@
    <meta charset="utf-8">
    <meta name="description"content="tu wpisz krótki opis strony">
    <meta name="keywords"content="Tu wpisz słowa kluczowe!">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <title>to jest izi</title>
     <style> 
     .igor {
@@ -15,14 +15,14 @@
       font-size: 50px;
       transition: transform 2s;
     }
-    .igor a {
+    a {
       color: #34495e;
       transition: color 1s;
     }
-    .igor a:hover {
+    a:hover {
       color: #ecf0f1;
     }
-    .igor.o {
+    .igor.odwrocone {
       transform: rotate(0deg);  
     }
     </style>
@@ -30,7 +30,7 @@
 <body bgcolor="#e67e22">
 
 <div class="odwr">
-  <a id="odwr" href="#">odwróć</a>
+  <a id="odwroc" href="#">odwróć</a>
 </div>
   
 <div class="igor">
@@ -38,11 +38,9 @@
 </div>
 
 <script>
-var $el = $('.igor');
-$('#odwr').click(function () {
-  $el.toggleClass('o');
+$('#odwroc').click(function () {
+  $('.igor').toggleClass('odwrocone');
 });
-      
 </script>
 
 </body>
