@@ -4,6 +4,7 @@
    <meta charset="utf-8">
    <meta name="description"content="tu wpisz krótki opis strony">
    <meta name="keywords"content="Tu wpisz słowa kluczowe!">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <title>to jest izi</title>
     <style> 
     a, a:visited, a:active {
@@ -17,13 +18,35 @@
       font-weight: bold;
       font-size: 55px;
     }
+    .igor {
+      transform: rotate(180deg);
+      transition: transform 2s;
+    }
+    .igor.odwrocone {
+      transform: rotate(0deg);  
+    }
     </style>
   </head>
-  <BR><a href="https://dodoscripter.github.io/">Moja strona :) </a>
   <body bgcolor="3498db">
+<div class="odwr">
+  <a id="odwroc" href="#">odwróć</a>
+</div>
+    
+    <div class="igor">
+  <BR><a href="https://dodoscripter.github.io/">Moja strona :) </a>
    <strong>Anthrax </strong>
 <a href="anthrax.html">Więcej o zespole </a>
 </body>
 <center> <font size="9" color="#FFFFFF"  face="Rockwell Extra Bold"> Anthrax! </font face>
 <center> <img src="z1.jpg" alt="Tu podaj tekst alternatywny" /> </center>
-</html>
+
+  </div>
+
+<script>
+$('#odwroc').click(function () {
+  $('.igor').toggleClass('odwrocone');
+});
+</script>
+      
+  </body>
+  </html>
