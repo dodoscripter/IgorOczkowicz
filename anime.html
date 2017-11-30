@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <meta name="description"content="tu wpisz krótki opis strony">
+   <meta name="keywords"content="Tu wpisz słowa kluczowe!">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <title>Anime!</title>
+    <style> 
+    a, a:visited, a:active {
+      color: #ecf0f1;
+      text-decoration: none;
+      transition: font-size 5s, color 1s;
+    }
+    a:hover {
+      color: #f1c40f;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 55px;
+    }
+    .igor {
+      transform: rotate(180deg);
+      transition: transform 2s;
+    }
+    .igor.odwrocone {
+      transform: rotate(0deg);  
+    }
+    </style>
+  </head>
+
+  <body background="snk.jpg">
+    <div class="odwr">
+      <a id="odwroc" href="#">odwróć</a>
+    </div>
+    
+    <div class="igor">
+
+      <strong>Anime! - Japońskie seriale animowane</strong>
+      <a href="anthrax.html">Więcej o zespole </a>
+
+      <center> <font size="9" color="#FFFFFF"  face="Rockwell Extra Bold"> Anthrax! </font face>
+      <center> <img src="z1.jpg" alt="Tu podaj tekst alternatywny" /> </center>
+
+    </div>
+
+    <script>
+      $('#odwroc').click(function () {
+        $('.igor').toggleClass('odwrocone');
+      });
+    </script>
+      
+  </body>
+</html>
