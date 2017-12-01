@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <meta charset="utf-8">
+   <meta name="description"content="tu wpisz krótki opis strony">
+   <meta name="keywords"content="Tu wpisz słowa kluczowe!">
+   <title>anthraxi</title>
+   <style> 
+    a, a:visited, a:active {
+      color: white;
+      text-decoration: none;
+      transition: font-size 5s, color 1s;
+    }
+    a:hover {
+      color: yellow;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 55px;
+    }
+    </style>
+  </head>
+  <body bgcolor="2ecc71">
+     
+    <BR> <a href="wstęp.html">Strona główna </a>
+<font size="5" color="#FFFFF face="comic sans">
+Anime-
+</font face>
+<bgsound src="Anthrax4" loop="n" />
+<BR> <a href="zdjęcia.html">State of Euphoria </a>
+<BR> <a href="zdjęcia2.html">Attack of the killer B'S </a>
+<BR> <a href="zdjęcia3.html">For All Kings </a>
+<BR> <a href="zdjęcia4.html">Chille on Hell </a>
+<BR> <strong>Więcej o zespole:</strong> </a>
+<BR> <a target="_blank" href="https://pl.wikipedia.org/wiki/Anthrax_(ameryka%C5%84ski_zesp%C3%B3%C5%82_muzyczny)">Wikipedia </a>                                                                                                         
+ 
+ </body>
+</html>
