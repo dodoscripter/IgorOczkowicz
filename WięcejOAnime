@@ -5,7 +5,7 @@
    <meta charset="utf-8">
    <meta name="description"content="tu wpisz krótki opis strony">
    <meta name="keywords"content="Tu wpisz słowa kluczowe!">
-   <title>anthraxi</title>
+   <title>anime</title>
    <style> 
     a, a:visited, a:active {
       color: white;
@@ -24,15 +24,8 @@
      
     <BR> <a href="wstęp.html">Strona główna </a>
 <font size="5" color="#FFFFF face="comic sans">
-Anime-
+<p>Anime – skrót słowny w języku japońskim, pochodzący od angielskiego słowa "animation", które jest wymawiane po japońsku animēshon. Oznacza ono film animowany, z tym że w Japonii terminem tym określa się wszystkie filmy i seriale animowane, bez względu na kraj ich pochodzenia. Natomiast poza Japonią słowo anime służy do określenia japońskich filmów animowanych oraz stylu japońskiej animacji</p>
 </font face>
-<bgsound src="Anthrax4" loop="n" />
-<BR> <a href="zdjęcia.html">State of Euphoria </a>
-<BR> <a href="zdjęcia2.html">Attack of the killer B'S </a>
-<BR> <a href="zdjęcia3.html">For All Kings </a>
-<BR> <a href="zdjęcia4.html">Chille on Hell </a>
-<BR> <strong>Więcej o zespole:</strong> </a>
-<BR> <a target="_blank" href="https://pl.wikipedia.org/wiki/Anthrax_(ameryka%C5%84ski_zesp%C3%B3%C5%82_muzyczny)">Wikipedia </a>                                                                                                         
- 
+
  </body>
 </html>
